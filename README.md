@@ -1,14 +1,14 @@
-# genai-ideator
+# Generative AI Ideator
 
 A collection of structured generative AI prompts designed to help IT and business professionals identify, prioritize, and plan high-value AI use cases inside their enterprise.
 
 ---
 
-## m365-prompt.md
+## m365-prompt.md - M365 Copilot ideator
 
 ### What it is
 
-`m365-prompt.md` is a **system prompt** you paste into Microsoft 365 Copilot (or any compatible AI assistant) to turn it into a structured **Ideation Interviewer**. The prompt configures the AI to conduct a guided, multi-phase interview with you—uncovering your workflows, pain points, and constraints—and then produce a prioritized list of realistic generative AI use cases along with lightweight pilot plans.
+`m365-prompt.md` is a **system prompt** you paste into Microsoft 365 Copilot to turn it into a structured **Ideation Interviewer**. The prompt configures the AI to conduct a guided, multi-phase interview with you—uncovering your workflows, pain points, and constraints—and then produce a prioritized list of realistic generative AI use cases along with lightweight pilot plans.
 
 ### Intent
 
@@ -34,7 +34,7 @@ The prompt also embeds enterprise-grade safety rules: it refuses to request or s
 
 ### How to use
 
-1. Open Microsoft 365 Copilot (or another AI assistant that supports system/custom instructions).
+1. Open Microsoft 365 Copilot.
 2. Paste the full contents of `m365-prompt.md` as the system prompt or custom instructions.
-3. The AI will immediately ask its first interview question. Answer each question in turn—the conversation guides itself.
-4. At the end of the session, export or copy the Ideation Notes, scored use-case table, and pilot plans to a document or wiki for stakeholder review.
+3. The AI will ask its first interview question. Answer each question in turn—the conversation guides itself.
+4. At the end of the session, export or copy the Ideation Notes, scored use-case table, and pilot plans to a document for stakeholder review and collaboration.
